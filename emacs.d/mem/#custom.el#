@@ -1,0 +1,56 @@
+AABBBAA                             "~/Org/mike-maheu/projects/designshack.org"
+                             "~/Org/mike-maheu/projects/git.org"))
+(require 'linum)
+(setq backup-directory-alist            '((".*" . "~/.EmacsTrash")))
+(setq backup-inhibited 'anyvaluebutnil )
+(when (>= emacs-major-version 24)
+  (requ[Bire 'package)
+  (package-initialize)
+  (add-to-list 'package-archives '("melpa" . "http://melpa.milkbox.net/packages/") t)
+  )
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(column-number-mode t)
+ '(custom-enabled-themes (quote (wombat)))
+ '(display-time-mode t)
+ '(remember-data-file "~/Org/mike-maheu/gtd/reminders.org")
+ '(show-paren-mode t)
+ '(tool-bar-mode nil))
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(mode-line ((t (:foreground "black" :background "#ffcc00" :box nil))))
+ '(term ((t (:inherit default :foreground "keyboardFocusIndicatorColor")))))
+;; Put this in .emacs:
+
+   (defun gnus-subscribe-selectively (newsgroup)
+     (gnus-subscribe-alphabetically newsgroup)
+     (if (not (string-match
+               ;; This regexp matches only non-wacky newsgroups.
+         ;; Change it to suit your preference.
+               "^\\(rec\\|comp\\|alt\\|oberlin\\|sci\\|misc\\|soc\\|news\\)\\."
+               newsgroup))
+       (gnus-group-unsubscribe-group newsgroup)))
+
+   (setq gnus-subscribe-newsgroup-method 'gnus-subscribe-selectively)
+
+   ;; Note: weirdly, gnus-group-unsubscribe-group will *subscribe* you
+   ;; to a group if it does not exist in your newsrc file already. :-S
+   ;; That's why gnus-subscribe-alphabetically is done unconditionally first
+
+(define-key input-decode-map "\e[1;10A" [M-S-up])
+(define-key input-decode-map "\e[1;10B" [M-S-down])
+(define-key input-decode-map "\e[1;10C" [M-S-right])
+(define-key input-decode-map "\e[1;10D" [M-S-left])
+
+(define-key input-decode-map "\e[1;3A" [M-up])
+(define-key input-decode-map "\e[1;3B" [M-down])
+(define-key input-decode-map "\e[1;3C" [M-right])
+(define-key input-decode-map "\e[1;3D" [M-left])
+
+

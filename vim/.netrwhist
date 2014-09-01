@@ -1,0 +1,10 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/Users/mmaheu/Development/htdocs/pico'
+let g:netrw_dirhist_2='/Users/mmaheu/Development/java/weceem-app'
+let g:netrw_dirhist_3='/Users/mmaheu/Development/Demos/dev_branches/fxkernel'
+let g:netrw_dirhist_4='/Users/mmaheu/Development/go2group/weightwatchers/test_stash/iPhone/Settings.bundle'
+let g:netrw_dirhist_5='/Users/mmaheu/.berkshelf'
+let g:netrw_dirhist_6='/Users/mmaheu/.config'
+let g:netrw_dirhist_7='/Users/mmaheu/Servers/stash-home/config'
+let g:netrw_dirhist_8='/Users/mmaheu/Training/git/gitessentials'
