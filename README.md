@@ -1,4 +1,4 @@
-##  Here we go with my latest dotfiles. 
+##  Here we go with my Ultra Minimal dotfiles. 
 
 
 ### List of Contributors
@@ -10,3 +10,20 @@
 
 
 
+### Main Applications
+- Zen Browser
+- NeoVim
+- Emacs - My old ways
+- cmus
+- Tidal
+- Pianobar
+- Gimp
+- DarkTable
+- WeeChat
+- OBS
+- Slack - Team Chat
+- Telegram - Exec Team
+- Zoom - Meetings
+- VLC
+- Kdenlive
+- Cameractls
