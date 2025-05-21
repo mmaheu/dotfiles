@@ -29,4 +29,10 @@
 - Cameractls
 
 ### Screenshots
+
+![Alt text](/screenshots/desktop1.png?raw=true "Terminal One")
+![Alt text](/screenshots/desktop2.png?raw=true "Terminal One")
 ![Alt text](/screenshots/term1.png?raw=true "Terminal One")
+![Alt text](/screenshots/term2.png?raw=true "Terminal One")
+![Alt text](/screenshots/term3.png?raw=true "Terminal One")
+![Alt text](/screenshots/term4.png?raw=true "Terminal One")
