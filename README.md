@@ -27,3 +27,6 @@
 - VLC
 - Kdenlive
 - Cameractls
+
+### Screenshots
+![Alt text](/screenshots/term1.png?raw=true "Terminal One")
