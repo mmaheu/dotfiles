@@ -97,19 +97,19 @@ setw -g clock-mode-colour colour4
 setw -g mode-style 'fg=colour1 bg=colour18 bold'
 
 # panes
-set -g pane-border-style 'fg=colour8 bg=colour0'
-set -g pane-active-border-style 'bg=colour0 fg=colour'8
+set -g pane-border-style 'fg=colour60 bg=colour0'
+set -g pane-active-border-style 'bg=colour0 fg=colour60'
 
 # statusbar
 set -g status-position bottom
 set -g status-justify left
-set -g status-style 'bg=colour233 fg=colour8 dim'
+set -g status-style 'bg=colour233 fg=colour254 dim'
 set -g status-left ''
-# set -g status-right '#[fg=colour80,bg=colour238] %d/%m #[fg=colour80,bg=colour238] %H:%M:%S'
+#set -g status-right '#[fg=colour80,bg=colour238] %d/%m #[fg=colour80,bg=colour238] %H:%M:%S'
 set -g status-right-length 50
 set -g status-left-length 20
 
-setw -g window-status-current-style 'fg=colour9 bg=colour233 bold'
+setw -g window-status-current-style 'fg=colour111 bg=colour233 bold'
 # setw -g window-status-current-format ' #I#[fg=colour249]:#[fg=colour255]#W#[fg=colour249]#F'
 
 # setw -g window-status-style 'fg=colour80 bg=colour238'
